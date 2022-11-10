@@ -1,1 +1,233 @@
+@font-face {
+    font-family: TwitterChirp;
+    src: url(./Font/chirp-regular-web.woff);
+}
 
+body {
+	font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: #0f1419;
+}
+
+.user {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.user:hover {
+	text-decoration: underline;
+}
+
+.handle {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	color: #536471;
+}
+
+.tweet-time {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	color: #536471;
+}
+
+.tweet-content {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.r-1cvl2hr {
+	color: rgb(29, 155, 240);
+}
+
+.r-1q142lx {
+    flex-shrink: 0;
+}
+
+.r-18jsvk2 {
+    color: rgb(15, 20, 25);
+}
+
+.r-xoduu5 {
+    display: inline-flex;
+}
+
+.r-18u37iz {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+}
+
+.r-37j5jr {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.r-a023e6 {
+    font-size: 15px;
+}
+
+.r-16dba41 {
+    font-weight: 400;
+}
+
+.r-rjixqe {
+    line-height: 20px;
+}
+
+.r-bcqeeo {
+    min-width: 0px;
+}
+
+.r-qvutc0 {
+    word-wrap: break-word;
+}
+
+.verified {
+	height: 15px;
+	width: 15px;
+	line-height: 20px;
+	fill: rgb(29, 161, 242);
+	margin: -3px;
+	display: inline-flex;
+}
+
+.css-1dbjc4n {
+    -ms-flex-align: stretch;
+    -ms-flex-direction: column;
+    -ms-flex-negative: 0;
+    -ms-flex-preferred-size: auto;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-basis: auto;
+    -webkit-flex-direction: column;
+    -webkit-flex-shrink: 0;
+    align-items: stretch;
+    border: 0 solid black;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    z-index: 0;
+}
+
+.r-1ta3fxp {
+    column-gap: 8px;
+}
+
+.r-18u37iz {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+}
+
+.r-1wtj0ep {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.r-1s2bzr4 {
+    margin-top: 12px;
+}
+
+.marginbottom12 {
+    margin-bottom: 2px;
+}
+
+.r-1mdbhws {
+    max-width: 425px;
+}
+
+#comments {
+	font-size: 13px;
+	color: #536471;
+	transition-duration: 256ms;
+}
+
+#comments:hover .commentssvg:hover {
+	color: #1DA1F2;
+	fill: #536471;
+}
+
+.commentssvg {
+	height: 13px;
+	width: 13px;
+	line-height: 20px;
+	fill: #536471;
+	margin: -2px;
+	border-radius: 9999px;
+	display: inline-flex;
+}
+
+#retweets {
+	font-size: 13px;
+	color: #536471;
+	transition-duration: 256ms;
+}
+
+#retweets:hover {
+	color: #00ba7c;
+}
+
+.retweetssvg {
+	height: 13px;
+	width: 13px;
+	line-height: 20px;
+	fill: #536471;
+	margin: -2px;
+	border-radius: 9999px;
+	display: inline-flex;
+}
+
+#likes {
+	font-size: 13px;
+	color: #fc2688;
+}
+
+.share {
+	height: 13px;
+	width: 13px;
+	line-height: 20px;
+	fill: #536471;
+	margin: -2px;
+	border-radius: 9999px;
+	display: inline-flex;
+}
+
+.pfp {
+	width: 32px;
+	height: 32px;
+	border-radius: 9999px;
+	background-image: url("pfp.png");
+	background-size: cover;
+	margin-right: 4px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.tweet-container {
+	display: inline-block;
+}
+
+.css-901oao{border:0 solid black;box-sizing:border-box;color:rgba(0,0,0,1.00);display:inline;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;white-space:pre-wrap;word-wrap:break-word;}
