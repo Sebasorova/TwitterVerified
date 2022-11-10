@@ -11,3 +11,7 @@ This repository holds the source code and content for our Twitter Verified the S
 Twitter Verified aimed to verify somone's authenticity on the platform, but since elon musk takeover it doesnt mean the same and everyone can get a verified checkmark for only $8/month with a Twitter Blue Subscription.
 
 But why paying $8/month to get a verified checkmark next to your name? so thats why I created this repository, to make everyone feel important for only $0/month.
+
+## How to contribute to this repo
+
+Contributions are open for everyone that wants to do it, so if you want to add something to this that idk how to do it, well... you can
