@@ -2,8 +2,7 @@
 let ProfileName = prompt('Please, whats the name of your twitter account?');
 let Handle = prompt('and... whats your twitter handle? (@Something)');
 let tweetcont = prompt('Type the content of the tweet here:');
-let change = 1;
-if (change = 1) {
+body.onload = () {
 	function setPlaceholders() {
 		document.getElementById("tweetcont").innerHTML = tweetcont;
 		document.getElementById("user").innerHTML = ProfileName;
