@@ -7,24 +7,7 @@
               <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./index.js"></script>
 <script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js" integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs" crossorigin="anonymous"></script>
-<script>
-//twemoji startup
-let div = document.createElement('div');
-div.textContent = 'I \u2764\uFE0F emoji!';
-document.body.appendChild(div);
-
-twemoji.parse(document.body);
-
-let img = div.querySelector('img');
-
-// note the div is preserved
-img.parentNode === div; // true
-
-img.src;        // https://twemoji.maxcdn.com/v/latest/72x72/2764.png
-img.alt;        // \u2764\uFE0F
-img.className;  // emoji
-img.draggable;  // false
-</script>
+<script src="./twemoji.js"></script>
         </head>
         <body>
 			<div class="pfp"></div>
