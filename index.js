@@ -23,7 +23,7 @@ window.setInterval(
 		let addition = getRandomInt(444);
         likes = likes + addition;
 		let LikesFormatted = Formatter.format(likes);
-        document.getElementById("likes").innerHTML = "♥" + LikesFormatted;
+        document.getElementById("likes").innerHTML = "❤ " + LikesFormatted;
      }, 2048);
 	 window.setInterval(
 	 function retweet() {
