@@ -1,4 +1,4 @@
-body.onload = () {    
+window.onload = () {    
             twemoji.parse(document.body, 
                     {folder: 'svg', ext: '.svg'}
             );
