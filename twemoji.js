@@ -1,6 +1,5 @@
-window.setInterval(
-	function() {     
+window.onLoad = () {    
             twemoji.parse(document.body, 
                     {folder: 'svg', ext: '.svg'}
             );
-}, 4000);
+}
