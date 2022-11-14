@@ -2,6 +2,10 @@
 let ProfileName = prompt('Please, whats the name of your twitter account?');
 let Handle = prompt('and... whats your twitter handle? (@Something)');
 let tweetcont = prompt('Type the content of the tweet here:');
+let ProfileImage = prompt('Copy and Paste the link of your twitter profile picture.')
+if(ProfileImage.length !=>1) {
+	let ProfileImage = './pfp.png';
+}
 window.setInterval(
 	function setContent() {
 		document.getElementById("tweetcont").innerHTML = tweetcont;
