@@ -236,3 +236,25 @@ img.emoji {
             width:1.5em;
             pointer-events: none; 
         }
+
+.count-update {
+    position: absolute;
+    opacity: 0;
+    transform: translate(0, -50%);
+    animation: count-update 1s ease-in-out forwards;
+}
+
+@keyframes count-update {
+    0% {
+        opacity: 0;
+        transform: translate(0, -50%) scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(0, -50%) scale(1.5);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(0, -50%) scale(1);
+    }
+}
